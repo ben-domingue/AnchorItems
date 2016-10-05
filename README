@@ -1,0 +1,5 @@
+irt-ml.stan contains the stan code to estimate the relevant models
+verhagen_demo.R replicates the Verhagen et al. results, http://www.sciencedirect.com/science/article/pii/S0022249615000395
+baseLPG.txt is data used in the Verhagen et al. study.
+anchor_sim.R is a simulation study.
+
