@@ -149,7 +149,9 @@ dev.off()
 
 do.call("rbind",zz)->tab
 strsplit(names(out)," ")->txt
-plot(tab[,4],tab[,3],type="n"); abline(0,1)
+par(mgp=c(2,1,0))
+plot(tab[,4],tab[,3],type="n",xlab="True diff in means",ylab="Est diff in means")
+abline(0,1)
 text(tab[,4],tab[,3],sapply(txt,"[",3))
 
 

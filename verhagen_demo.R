@@ -96,5 +96,5 @@ compare<-function(b1,b2) {
 comp<-numeric()
 for (i in 1:11) compare(B[,i,1],B[,i,2])->comp[i]
 mtext(side=4,line=.2,las=1,round(comp,digits=2),at=1:nrow(ends))
-mtext(side=3,line=.2,"Replication of results from Verhagent et al. Table 2")
+#mtext(side=3,line=.2,"Replication of results from Verhagent et al. Table 2")
 legend("topright",c("males","females","anchor","variant"),lty=c(NA,NA,1,3),pch=c(19,19,NA,NA),lwd=2,col=c("blue","black","black","black"),bty="n")
